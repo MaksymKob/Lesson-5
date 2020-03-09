@@ -1,0 +1,32 @@
+:root {
+    --color-main: #969698;
+    --color-second: #ebebed;
+    --title-size: 25px;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+p {
+    color: var(--color-main);
+    display: inline-block;
+}
+
+a { 
+    text-decoration: var(--color-second);
+}
+
+h2 {
+    font-size: var(--title-size);
+    color: var(--color-main);
+}
+
+li {
+    background: var(--color-second);
+    margin: 10px 10px 10px 0; 
+}
+
+.circle {
+    border: 10px solid var(--color-second);
+}
